@@ -17,4 +17,6 @@ In `vite.config.ts` there are two custom plugins:
 
 In `svelte.config.js` we are changing the [`appDir`](https://kit.svelte.dev/docs/configuration) to point to `build/app` in order to mitigate issues with the browser loading the extension:
 
-> Cannot load extension with file or directory name _app. Filenames starting with "_" are reserved for use by the system.
+```text
+Cannot load extension with file or directory name _app. Filenames starting with "_" are reserved for use by the system.
+```
